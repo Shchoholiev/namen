@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "IntelOne";
+    src: url("/fonts/intelone-display-light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "IntelOne";
+    src: url("/fonts/intelone-display-regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "IntelOne";
+    src: url("/fonts/intelone-display-medium.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "IntelOne";
+    src: url("/fonts/intelone-display-bold.ttf");
+    font-weight: 700;
+}
+
+html {
+    --color-main: #A082DA;
+    --color-secondary: #E2CAE4;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6, a, button, input, label {
+    font-family: "IntelOne", Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 52px !important;
+    font-weight: 400 !important;
+}
+
+h2 {
+    font-size: 46px !important;
+    font-weight: 700 !important;
+    color: #fff;
+    margin: 0 !important;
+}
+
+h5 {
+    text-transform: uppercase !important;
+    color: var(--color-main) !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+}
+
+h6 {
+    font-size: 18px !important;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+p {
+    margin: 0 !important;
+}
+
+body {
+    background-color: var(--color-secondary) !important;
+    font-family: "IntelOne", Helvetica, sans-serif !important;
+}
+
+.logo {
+    font-family: "IntelOne", Helvetica, sans-serif;
+    font-weight: 600;
+    color: #333 !important;
+}
+
+.btn-main {
+    background-color: var(--color-main) !important;
+    font-weight: 600 !important;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: 0.5s;
+}
+
+    .btn-main:hover {
+        background-color: #c0a7f1 !important;
+    }
+
+.bg-main {
+    background-color: var(--color-main) !important;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.highlight-info {
+    width: calc(100% / 3);
+}
+
+footer {
+    background-color: var(--color-main);
+}
